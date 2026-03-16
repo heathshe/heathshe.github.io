@@ -25,6 +25,18 @@
     	object-fit: cover;
     	object-position: center;
 		}
+			
+		#main p {
+   		max-width: 850px;
+   		margin: 0 auto 1.5em auto;
+	    text-align: center;
+    	line-height: 1.8;
+		}
+
+		#main h2 {
+    	font-size: 2.2em;
+    	margin-bottom: .5em;
+		}
 	</style>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -52,9 +64,9 @@
 							<ul>
 								<li><a href="#header">Home</a></li>
 								<li><a href="#banner">Upcoming Shows</a></li>
-								<li><a href="#main">About LiveLocal</a></li>
+								<li><a href="#about">About LiveLocal</a></li>
 								<li><a href="#features">How it Works</a></li>
-								<li><a href="#footer">Contact</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 
@@ -156,23 +168,28 @@
 				</section>
 
 			<!-- Main -->
-				<div class="wrapper style2">
+				<div id="about" class="wrapper style2">
 
 					<article id="main" class="container special">
-						<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+						
 						<header>
+							<h2>&nbsp;</h2>
 							<h2><a href="#">What is LiveLocal?</a></h2>
+<hr style="width:80px;margin:1.2em auto;opacity:.35;">
+							
 						  <p><br>
 						  </p>
 							<p> LiveLocal is a platform designed to help music fans easily discover concerts happening near them. Instead of searching multiple websites, users can explore upcoming shows, discover new artists,
 							  and quickly find events happening in their city. </p>
                         </header>
 						<p><br>
-					  </p>
-						<p> Our goal is to make it easier for concert-goers to stay connected to the live music scene. Artists and venues can promote upcoming performances, while fans can browse events in one place. Each listing provides key details such as the artist, date, venue, and location, along with direct links to trusted ticket platforms like Ticketmaster or StubHub. By bringing this information together, LiveLocal helps fans find great shows and supports artists performing in local communities. </p>
-<footer>
-		  <a href="#" class="button">Continue Reading</a>
-		</footer>
+					  	</p>
+						<p> Our goal is to make it easier for concert-goers to stay connected to the live music scene. Artists and venues can promote upcoming performances, while fans can browse events in one place. Each listing provides key details such as the artist, date, venue, and location, along with direct links to trusted ticket platforms like Ticketmaster or StubHub. By bringing this information together, LiveLocal helps fans find great shows and supports artists performing in local communities. 
+						</p>
+						
+						<footer style="margin-top:2.5em;">
+							<a href="#features" class="button">Explore Artists</a>
+						</footer>
 					</article>
 
 				</div>
@@ -331,7 +348,7 @@
 							<div class="col-12">
 
 								<!-- Contact -->
-									<section class="contact">
+									<section id="contact" class="contact">
 										<header>
 											<h3>Contact Live Local</h3>
 										</header>
@@ -390,4 +407,3 @@
 
 	</body>
 </html>
-
